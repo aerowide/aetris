@@ -1,0 +1,20 @@
+{
+  "name": "aetrisnet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "vite",
+    "vbuild": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^8.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^7.1.12"
+  },
+  "private": true
+}
