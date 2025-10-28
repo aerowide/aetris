@@ -1,4 +1,5 @@
 export const PARAM = {
-    ARR: 50,
+    ARR: 0.033,
+    DAS: 0.063,
 
 }
