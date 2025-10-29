@@ -6,11 +6,11 @@ const red = 0xFF0000
 const green = 0x00FF00
 const cyan = 0x00AAFF
 const blue = 0x0000FF
-const grey = 0x333333
+const grey = 0x222222
 
 export const COLORS = {
     empty: 0x000000, // black
-    garbage: 0xAAAAAA, // grey
+    garbage: 0xAAAAAA, /* grey*/ 9: 0xAAAAAA,
     o: yellow, 1: yellow,
     t: pink, 2: pink,
     j: orange, 3: orange,
@@ -18,5 +18,5 @@ export const COLORS = {
     s: green, 5: green,
     z: red, 6: red,
     i: cyan, 7: cyan,
-    [-1]: grey
+    ghost: grey, [-1]: grey
 }
